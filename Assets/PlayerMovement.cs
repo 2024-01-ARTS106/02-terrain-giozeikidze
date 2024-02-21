@@ -35,6 +35,8 @@ public class PlayerMovement : MonoBehaviour
         {
             float mouseX = Input.GetAxis("Mouse X");
             transform.Rotate(0, mouseX * rotationSpeed * Time.deltaTime, 0);
+            float mouseY = Input.GetAxis("Mouse Y");
+           
         }
     }
     
