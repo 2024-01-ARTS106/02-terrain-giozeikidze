@@ -526,7 +526,7 @@ Terrain:
   m_GameObject: {fileID: 1687653576}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 2cc3bc1a341041741953b0478b571274, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: c7556c7d7a221d246a90374b3d02d966, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -565,7 +565,7 @@ Transform:
   m_GameObject: {fileID: 1687653576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 122.1, y: -53.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -584,9 +584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 669348f876eadb04bb22b041eefcde77, type: 2}
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1687653581
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -117,9 +117,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3888509591206441256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0911b84aacc5c0148863bc898dbfcd8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 317092ac56f45344e8b8593d920ac3bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 500
 --- !u!114 &8406935157185915316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,10 +130,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3888509591206441256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0d3d77aec69713499f2b754fbb8f132, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d2e7ef0ff91133458db963d192f0689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
 --- !u!54 &3557511084915128515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
